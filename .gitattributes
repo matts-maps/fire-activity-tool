@@ -1,0 +1,10 @@
+# Normalise line endings for text files
+* text=auto
+
+# Shapefile parts and other binary data
+*.shp binary
+*.shx binary
+*.dbf binary
+*.gpkg binary
+*.tif binary
+*.png binary

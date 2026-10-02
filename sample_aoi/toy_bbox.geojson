@@ -1,0 +1,16 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "toy_bbox_central_portugal",
+        "note": "Illustrative bounding box only, for testing the tool. Not an authoritative boundary. For real areas use fieldmaps.io, HDX Common Operational Datasets or GADM."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[-8.3, 39.8], [-7.7, 39.8], [-7.7, 40.2], [-8.3, 40.2], [-8.3, 39.8]]]
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+# Fire activity tool - Python packages
+# Install into the earth-engine-gis conda env, not arcgispro-py3 itself.
+earthengine-api>=0.1.380
+geopandas>=0.14
+pyogrio>=0.7
+shapely>=2.0
+pandas>=2.0
+pytest>=7
+numpy>=1.24
+pyproj>=3.5
+matplotlib>=3.6
+# Calendar picker on the window's date boxes
+tkcalendar>=1.6
+# tkinter (for fire_gui.py) comes with ArcGIS Pro's Python
+# Optional: GeoTIFF density and burned area rasters (otherwise Esri ASCII grids are written)
+# rasterio>=1.3

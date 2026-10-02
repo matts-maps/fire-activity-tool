@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Tool outputs (runs write here by default)
+out/
+
+# Local working notes, not part of the tool
+CLAUDE.md
+TASKS.md
+fire-activity-tool-plan.md
+memory/
+dashboard.html
+
+# ArcGIS sidecar files (spatial indexes, and metadata that records local paths)
+*.sbn
+*.sbx
+*.shp.xml
+*.aux.xml
+*.ovr
+
+# Temporary files the tool can leave behind if a run is interrupted
+*.lockcheck
+*_writing.*
